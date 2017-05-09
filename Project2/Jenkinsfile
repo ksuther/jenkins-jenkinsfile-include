@@ -1,0 +1,5 @@
+node {
+    stage('Project 2 Stage') {
+        echo 'Project 2 Stage'
+    }
+}
