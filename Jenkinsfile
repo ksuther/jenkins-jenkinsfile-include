@@ -3,6 +3,8 @@
 node {
     stage('Shared') {
         echo 'Shared stage'
+
+        checkout scm
     }
 
     if (env.JOB_NAME == 'Project 1') {
